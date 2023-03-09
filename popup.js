@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   function summarizeText() {
     const inputText = document.querySelector("#input").value;
-    const apiKey = "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"; 
+    const apiKey = '###MY API KEY###'; 
   
     fetch("https://api.openai.com/v1/completions", {
       method: "POST",
