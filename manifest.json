@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Summify",
+    "version": "1.0",
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_title": "OpenAI Text Summarization",
+      "default_popup": "popup.html"
+    }
+  }
+  
